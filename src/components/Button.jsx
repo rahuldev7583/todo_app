@@ -1,12 +1,12 @@
+import Delete from "./../trash.png";
 function Button(props) {
   return (
     <div>
-      
       <button
-        className="bg-black text-white  p-2 rounded"
+        className="ml-8 mb-4 relative top-1"
         onClick={props.deleteClicked}
       >
-        Delete
+        <img className="w-10" src={Delete} alt="trashImg" />
       </button>
     </div>
   );

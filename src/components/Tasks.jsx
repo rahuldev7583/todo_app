@@ -13,7 +13,7 @@ function AddTask() {
   return (
     <div className="">
       <button
-        className="bg-black text-white my-4 mx-4 p-2 rounded"
+        className="bg-[#01dabb] hover:bg-[#00bdc2] text-slate-500 mt-4 ml-32 p-2 rounded-lg"
         onClick={addTask}
       >
         Add Task
