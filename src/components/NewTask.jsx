@@ -54,7 +54,7 @@ function NewTask() {
           ];
           return (
             <div
-              className="border-2 border-[#01dabb] rounded-xl h-42 w-[70%] text-slate-800 ml-16 pl-12 mt-4"
+              className="border-2 border-[#01dabb] rounded-xl h-42 w-[70%] text-slate-800 ml-16 pl-12 mt-20 mb-24"
               key={newTask.id}
             >
               <input
@@ -88,7 +88,7 @@ function NewTask() {
   }
   return (
     <form
-      className="mt-4 ml-16  w-[85%] text-slate-500"
+      className="absolute pt-1 pb-32 top-28 mt-0 ml-16  w-[85%] text-slate-500 bg-white "
       onSubmit={handleSubmit}
     >
       <label for="title" className="text-[#01dabb]">
@@ -139,7 +139,7 @@ function NewTask() {
       <br />
 
       <button
-        className="bg-[#01dabb] p-2 rounded-xl mt-4 ml-12 text-xl text-slate-700"
+        className="bg-[#01dabb] p-2 rounded-xl mt-2 ml-12 text-xl text-slate-700"
         type="submit"
       >
         submit
