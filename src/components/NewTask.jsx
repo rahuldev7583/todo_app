@@ -54,7 +54,7 @@ function NewTask() {
           ];
           return (
             <div
-              className="border-2 border-[#01dabb] rounded-xl h-42 w-[70%] text-slate-800 ml-16 pl-12 mt-20 mb-24"
+              className="border-2 border-[#01dabb] rounded-xl h-42 w-[70%] text-slate-800 ml-16 pl-12 mt-16"
               key={newTask.id}
             >
               <input
