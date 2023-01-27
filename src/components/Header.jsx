@@ -12,8 +12,8 @@ for (let i = time.length - 4; i > cutStr; i--) {
 time.join("");
 function Header() {
   return (
-    <div className="text-center my-2 ">
-      <h1 className="font-black text-5xl text-[#01dabb]">Todo</h1>
+    <div className="text-center my-2 md:text-xl">
+      <h1 className="font-black text-5xl text-[#01dabb] ">Todo</h1>
       <h2 className="text-slate-500">{date}</h2>
       <h2 className="font-bold text-[#01dabb]">{time}</h2>
     </div>
