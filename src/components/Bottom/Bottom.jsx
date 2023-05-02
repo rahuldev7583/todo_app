@@ -7,14 +7,11 @@ function Bottom() {
   return (
     <div
       className={
-        "fixed bottom-0 left-0 right-0 text-slate-500 text-center text bg-[#01dabb] mt-2 pt-1 md:text-xl md:relative md:top-[26.3rem]"
+        "fixed bottom-0 left-0 right-0 text-slate-500 text-center text bg-[#01dabb] mt-2 pt-1 md:text-xl md:relative md:top-[26.3rem] lg:top-[32rem]"
       }
     >
       created by
-      <a
-        href="https://legendary-paprenjak-c7072d.netlify.app/"
-        className="underline ml-2"
-      >
+      <a href="https://iamrahul.dev" className="underline ml-2">
         Rahul Dev
       </a>
       <ul className="flex md:ml-[34%]">

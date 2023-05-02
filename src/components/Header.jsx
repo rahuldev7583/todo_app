@@ -1,15 +1,14 @@
 const date = new Date().toDateString();
 const currentTime = new Date();
-const time = currentTime.toLocaleTimeString().split("");
 const hour = currentTime.getHours();
-let cutStr = 3;
-if (hour >= 10 && hour <= 12) {
-  cutStr = 4;
-}
-for (let i = time.length - 4; i > cutStr; i--) {
-  delete time[i];
-}
-time.join("");
+const minute = currentTime.getMinutes();
+const amPm = hour >= 12 ? "PM" : "AM";
+
+let hour12 = hour % 12;
+hour12 = hour12 ? hour12 : 12;
+
+const time = `${hour12}:${minute < 10 ? "0" : ""}${minute} ${amPm}`;
+
 function Header() {
   return (
     <div className="text-center my-2 md:text-xl">
